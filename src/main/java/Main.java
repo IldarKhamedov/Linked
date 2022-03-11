@@ -16,7 +16,7 @@ public class Main {
         list.remove("4");
         System.out.println(list.size);
         list.remove("2");
-
+        System.out.println(list.size);
         MyIterator iterator2=(MyIterator) list.iterator();
         while (iterator2.hasNext()){
             System.out.println(iterator2.next());
